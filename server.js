@@ -14,6 +14,13 @@ app.get('/invoices/:id', (req, res) => {
     res.send(rawdata)
   })
 
+  app.get('/prechecks/:id', (req, res) => {
+    let rawdata = fs.readFileSync('./prechecks/'+req.params.id+'.json');
+
+    res.setHeader('content-type', 'application/json');
+    res.send(rawdata)
+  })
+
 app.listen(port, () => {
   console.log(`Example app listening at ${port}`)
 })
