@@ -1,25 +1,20 @@
 const express = require('express')
 const fs = require('fs');
+const { getSystemErrorMap } = require('util');
 const app = express()
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5001
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+function sendDataBack(path, res){
+  const rawdata = fs.readFileSync("."+path+'.json');
+
+  res.setHeader('content-type', 'application/json');
+  res.send(rawdata)
+}
+
+app.get('/*', (req, res) => {
+  console.log(req.path);
+  sendDataBack(req.path, res);
 })
-
-app.get('/invoices/:id', (req, res) => {
-    let rawdata = fs.readFileSync('./invoices/'+req.params.id+'.json');
-
-    res.setHeader('content-type', 'application/json');
-    res.send(rawdata)
-  })
-
-  app.get('/prechecks/:id', (req, res) => {
-    let rawdata = fs.readFileSync('./prechecks/'+req.params.id+'.json');
-
-    res.setHeader('content-type', 'application/json');
-    res.send(rawdata)
-  })
 
 app.listen(port, () => {
   console.log(`Example app listening at ${port}`)
