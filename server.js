@@ -21,11 +21,11 @@ app.get("/*", (req, res) => {
 app.post("/*", (req, res) => {});
 
 app.put("/*", (req, res) => {
-  res.send({ success: true });
+  res.send({ status: success });
 });
 
 app.patch("/*", (req, res) => {
-  res.send({ success: true, path: req.path });
+  res.send({ status: success });
 });
 
 app.listen(port, () => {
