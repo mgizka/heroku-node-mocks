@@ -5,7 +5,7 @@ const { getSystemErrorMap } = require("util");
 const app = express();
 const port = process.env.PORT || 5001;
 
-function sendDataBack(path, res) {
+function sendDataBack(path, req, res) {
   console.log(req.method, req.path, req);
 
   const rawdata = fs.readFileSync("." + path + ".json");
@@ -15,7 +15,7 @@ function sendDataBack(path, res) {
 }
 
 app.get("/*", (req, res) => {
-  sendDataBack(req.path, res);
+  sendDataBack(req.path, req, res);
 });
 
 app.put("/*", (req, res) => {
