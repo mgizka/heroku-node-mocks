@@ -1,0 +1,100 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Dunning Swagger",
+    "version": "1.0"
+  },
+  "paths": {
+    "/dunning/suspendProcess/{id}": {
+      "get": {
+        "operationId": "suspendProcess",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "specifies which dunning process to suspend",
+        "responses": {
+          "200": {
+            "description": "dunning process status",
+            "schema": {
+              "$ref": "#/definitions/DunningProcessStatus"
+            }
+          }
+        }
+      }
+    },
+    "/dunning/startProcess/": {
+      "post": {
+        "operationId": "startProcess",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "input",
+            "description": "Subscription data required to create a dunning process",
+            "schema": {
+              "type": "object",
+              "required": [
+                "accountId",
+                "subscriptionId"
+              ],
+              "properties": {
+                "accountId": {
+                  "type": "string"
+                },
+                "subscriptionId": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "dunning proccess status",
+            "schema": {
+              "$ref": "#/definitions/DunningProcessStatus"
+            }
+          }
+        }
+      }
+    },
+    "/dunning/escalateProcess/{id}": {
+      "patch": {
+        "operationId": "escalateProcess",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "dunning proccess status",
+            "schema": {
+              "$ref": "#/definitions/DunningProcessStatus"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "DunningProcessStatus": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "processId": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
