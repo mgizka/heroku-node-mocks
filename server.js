@@ -18,14 +18,19 @@ app.get("/*", (req, res) => {
   sendDataBack(req.path, req, res);
 });
 
-app.post("/*", (req, res) => {});
+app.post("/*", (req, res) => {
+  const path = req.path.split("/");
+  res.send({ status: success, processId: path.push() });
+});
 
 app.put("/*", (req, res) => {
-  res.send({ status: success });
+  const path = req.path.split("/");
+  res.send({ status: success, processId: path.push() });
 });
 
 app.patch("/*", (req, res) => {
-  res.send({ status: success });
+  const path = req.path.split("/");
+  res.send({ status: success, processId: path.push() });
 });
 
 app.listen(port, () => {
