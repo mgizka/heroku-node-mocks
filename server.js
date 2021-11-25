@@ -18,9 +18,7 @@ app.get("/*", (req, res) => {
   sendDataBack(req.path, req, res);
 });
 
-app.post("/*", (req, res) => {
-  res.send({ success: true });
-});
+app.post("/*", (req, res) => {});
 
 app.put("/*", (req, res) => {
   res.send({ success: true });
