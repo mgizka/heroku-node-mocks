@@ -27,7 +27,7 @@ app.put("/*", (req, res) => {
 });
 
 app.patch("/*", (req, res) => {
-  sendDataBack(req.path.replace, req, res);
+  res.send({ success: "success" });
 });
 
 app.listen(port, () => {

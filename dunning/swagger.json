@@ -6,7 +6,7 @@
   },
   "paths": {
     "/dunning/suspendProcess/{id}": {
-      "get": {
+      "patch": {
         "operationId": "suspendProcess",
         "parameters": [
           {
@@ -37,10 +37,7 @@
             "description": "Subscription data required to create a dunning process",
             "schema": {
               "type": "object",
-              "required": [
-                "accountId",
-                "subscriptionId"
-              ],
+              "required": ["accountId", "subscriptionId"],
               "properties": {
                 "accountId": {
                   "type": "string"
@@ -89,9 +86,6 @@
       "type": "object",
       "properties": {
         "status": {
-          "type": "string"
-        },
-        "processId": {
           "type": "string"
         }
       }
