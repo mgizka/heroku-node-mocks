@@ -27,7 +27,7 @@ app.put("/*", (req, res) => {
 });
 
 app.patch("/*", (req, res) => {
-  res.send({ success: "success" });
+  res.send({ status: "success" });
 });
 
 app.listen(port, () => {
