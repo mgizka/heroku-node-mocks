@@ -1,0 +1,35 @@
+<head>
+    <title>Customer care DEMO</title>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+</head>
+<body>
+
+    <h1>Submit Payout case</h1>
+    
+    <form action="https://tefmm--tefdemo3.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    
+        <input type=hidden name="orgid" value="00D5r0000004Z2s">
+        <input type=hidden name="retURL" value="http://localhost:5001/pages/payout-submit.html">
+        
+        <!--  ----------------------------------------------------------------------  -->
+        <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+        <!--  these lines if you wish to test in debug mode.                          -->
+        <!--  <input type="hidden" name="debug" value=1>                              -->
+        <!--  <input type="hidden" name="debugEmail"                                  -->
+        <!--  value="zoran.milovanovic@telefonica.com">                               -->
+        <!--  ----------------------------------------------------------------------  -->
+        
+        <input hidden id="name" maxlength="80" name="name" size="20" type="text" value="Helena Haider" /><br>
+        
+        <input hidden id="email" maxlength="80" name="email" size="20" type="text" value="helena.haider@yopmail.com" /><br>
+        
+        <label for="phone">Phone:</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+        
+        <input hidden id="subject" maxlength="80" name="subject" size="20" type="text" value="Payout request" /><br>
+        
+        IBAN:<input  id="00N5r000003Y7Uq" maxlength="22" name="00N5r000003Y7Uq" size="20" type="text" /><br>
+        
+        <input type="submit" name="submit">
+    
+    </form>
+</body>

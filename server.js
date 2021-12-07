@@ -1,6 +1,6 @@
 const express = require("express");
 const fs = require("fs");
-const { getSystemErrorMap } = require("util");
+const pathLib = require('path');
 
 const app = express();
 const port = process.env.PORT || 5001;
@@ -12,7 +12,12 @@ function sendDataBack(path, req, res) {
 
   res.setHeader("content-type", "application/json");
   res.send(rawdata);
-}
+};
+
+app.get("/pages/*", (req, res) => {
+  const htmlPage = pathLib.join(__dirname, req.path)
+  res.sendFile(htmlPage);
+});
 
 app.get("/*", (req, res) => {
   sendDataBack(req.path, req, res);
