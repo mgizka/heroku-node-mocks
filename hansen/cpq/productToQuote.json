@@ -1,0 +1,870 @@
+{ 
+    "id": "7e77eec1-e47f-4a40-bb10-88f2df4781cc", 
+    "name": "c-00839", 
+    "contextData": { 
+      "orderType": "Cancel_Contract", 
+      "brandDetails": { 
+        "brand": "Blau" 
+      }, 
+      "orderCharacteristics": { 
+        "deactivationDate": "2022-02-24T00:00:00" 
+      } 
+    }, 
+    "quoteNumber": "0007815", 
+    "customerRef": "C-00839", 
+    "itemCount": 1, 
+    "items": [ 
+      { 
+        "productId": "d417534b-48ca-4fba-87df-c1c37fb119f8", 
+        "name": "Blau Talk S", 
+        "id": "0007c4b7-1f8f-4ae4-ac04-5c8552d47eca", 
+        "itemNumber": "0008815", 
+        "currentPricing": { 
+          "ItemisedPricingSummary": [], 
+          "TotalPriceSummary": {} 
+        }, 
+        "portfolioItem": { 
+          "ID": "FY_116c5z93nos3", 
+          "EntityID": "d417534b-48ca-4fba-87df-c1c37fb119f8", 
+          "ChildEntity": [ 
+            { 
+              "ID": "FY_11980tna2cl8", 
+              "EntityID": "99b48b76-64c5-4de5-b1ac-8bacb2413dea", 
+              "ChildEntity": [ 
+                { 
+                  "ID": "FY_110p02k5a0hy", 
+                  "EntityID": "b7e7e07f-66b9-4a0b-bbfc-76ba901078d1", 
+                  "ChildEntity": [ 
+                    { 
+                      "ID": "FY_11lskphgf67d", 
+                      "EntityID": "c207b492-894c-482a-b644-22d55792ea27", 
+                      "ChildEntity": [], 
+                      "CharacteristicUse": [], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [], 
+                      "LinkedEntity": [], 
+                      "Rate": { 
+                        "Rate": 9.99, 
+                        "RateRowID": "2ac98adc-9cc0-44c8-ab8d-2a0628229763", 
+                        "Type": "Value_Pricing_Rate_NRR", 
+                        "StartDate": "2021-05-01", 
+                        "Value": 9.99 
+                      }, 
+                      "ChargeType": "NonRecurringCharge", 
+                      "ExactType": "Value_Pricing_NRC_Template", 
+                      "_IsNewForCustomer": true, 
+                      "HasBeenPaid": true 
+                    }, 
+                    { 
+                      "ID": "FY_110bexkfp5rz", 
+                      "EntityID": "a89549be-9a32-4e47-8cda-ad0e963eeb96", 
+                      "ChildEntity": [], 
+                      "CharacteristicUse": [ 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "ffaa5ea4-4966-4d4a-87a5-1569d412d00f", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "6993fbd6-e8b7-418d-bf01-52483239cbf8", 
+                              "ValueDetail": "10" 
+                            } 
+                          ], 
+                          "UseID": "904f842e-9d5e-4902-ad60-8764cb9d19b3" 
+                        } 
+                      ], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [ 
+                        { 
+                          "UseArea": "User_Defined_Char", 
+                          "CharacteristicID": "8121b491-c0a3-4ad5-9fdd-c8dbc5161a3e", 
+                          "Value": [ 
+                            { 
+                              "Value": "10", 
+                              "ValueDetail": "Final Balance Credit" 
+                            } 
+                          ], 
+                          "UseID": "2d1c7226-4d96-4760-9dab-be4738e16047" 
+                        } 
+                      ], 
+                      "LinkedEntity": [], 
+                      "_IsNewForCustomer": true 
+                    }, 
+                    { 
+                      "ID": "FY_11firxedg2gd", 
+                      "EntityID": "c5591f73-bffb-4e22-8117-74485cb079b3", 
+                      "ChildEntity": [], 
+                      "CharacteristicUse": [ 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "dc0e36e9-5b6d-45f8-8cf4-46d9474e1ea5", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "632fe73f-1e8f-4a85-a1ee-218726001308", 
+                              "ValueDetail": "1OTC_1D_BT3_iT_158" 
+                            } 
+                          ], 
+                          "UseID": "b7abf319-9a93-48b0-be1f-e19300f6258c" 
+                        } 
+                      ], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [ 
+                        { 
+                          "UseArea": "Ccs_User_Defined_Characteristic", 
+                          "CharacteristicID": "00b3626b-940d-4b2d-beea-a39ac98d2c48", 
+                          "Value": [ 
+                            { 
+                              "Value": "A-0000", 
+                              "ValueDetail": "paymentTransactionId" 
+                            } 
+                          ], 
+                          "UseID": "f25257f3-b0a5-4b1e-ae0e-0312329f81ab" 
+                        }, 
+                        { 
+                          "UseArea": "Ccs_User_Defined_Characteristic", 
+                          "CharacteristicID": "60f839be-3ca1-4eca-9f2d-e527b241580b", 
+                          "Value": [ 
+                            { 
+                              "Value": "x", 
+                              "ValueDetail": "resourceId" 
+                            } 
+                          ], 
+                          "UseID": "38d4d1c4-793b-4123-918f-348b8f78d6e2" 
+                        } 
+                      ], 
+                      "LinkedEntity": [], 
+                      "_IsNewForCustomer": true 
+                    }, 
+                    { 
+                      "ID": "FY_11v66e9886lt", 
+                      "EntityID": "f73afccc-cc37-40fa-a9da-23d18fa428ef", 
+                      "ChildEntity": [], 
+                      "CharacteristicUse": [ 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "dc0e36e9-5b6d-45f8-8cf4-46d9474e1ea5", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "8a4de6fb-d64d-685d-1cd5-eea042c1eeda", 
+                              "ValueDetail": "Paygo_Blau_BaseProduct_128" 
+                            } 
+                          ], 
+                          "UseID": "5e233457-979b-4fd4-b15d-4cd58a05a648" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "4c661f66-b31a-4e64-81be-9d0b888680e6", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "e9d01c2a-8c55-46ec-8d3b-5d59d688d823", 
+                              "ValueDetail": "No" 
+                            } 
+                          ], 
+                          "UseID": "090bbf91-eb32-45c1-9d8f-60c326722528" 
+                        } 
+                      ], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [ 
+                        { 
+                          "UseArea": "Ccs_User_Defined_Characteristic", 
+                          "CharacteristicID": "60f839be-3ca1-4eca-9f2d-e527b241580b", 
+                          "Value": [ 
+                            { 
+                              "Value": "x", 
+                              "ValueDetail": "resourceId" 
+                            } 
+                          ], 
+                          "UseID": "34c1d178-e74f-439f-97b1-392aec4b489e" 
+                        } 
+                      ], 
+                      "LinkedEntity": [], 
+                      "_IsNewForCustomer": true 
+                    } 
+                  ], 
+                  "CharacteristicUse": [], 
+                  "RateAttribute": [], 
+                  "ConfiguredValue": [], 
+                  "LinkedEntity": [], 
+                  "_IsNewForCustomer": true 
+                }, 
+                { 
+                  "ID": "FY_11po155kxk1k", 
+                  "EntityID": "b72d66b3-4baf-4e38-85f8-76ea029bad2b", 
+                  "ChildEntity": [ 
+                    { 
+                      "ID": "FY_118v7mr6cwru", 
+                      "EntityID": "68d0cd5f-d6de-4ab2-af7d-5b1cd26ee85d", 
+                      "ChildEntity": [], 
+                      "CharacteristicUse": [ 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "dc0e36e9-5b6d-45f8-8cf4-46d9474e1ea5", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "fc2c3272-b5ff-2b5e-3a9b-12aaf9288181", 
+                              "ValueDetail": "vsU_rlh_1mD14dI90dR_1RC_1D_iT_142" 
+                            } 
+                          ], 
+                          "UseID": "1fbf0bde-2040-4a81-8640-bb9628bf0f12" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "4c661f66-b31a-4e64-81be-9d0b888680e6", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "43a88a09-10b8-493f-9994-8b7e32a64c0f", 
+                              "ValueDetail": "Yes" 
+                            } 
+                          ], 
+                          "UseID": "ab83d53c-8e85-4c0e-a17d-971e795e8ff4" 
+                        } 
+                      ], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [ 
+                        { 
+                          "UseArea": "Ccs_User_Defined_Characteristic", 
+                          "CharacteristicID": "76c4e767-ce7b-4675-a178-d832839b322f", 
+                          "Value": [ 
+                            { 
+                              "Value": "OnDemand", 
+                              "ValueDetail": "paymentMethod" 
+                            } 
+                          ], 
+                          "UseID": "1cf22ff1-ddb6-467c-af85-7fb573242f16" 
+                        }, 
+                        { 
+                          "UseArea": "Ccs_User_Defined_Characteristic", 
+                          "CharacteristicID": "00b3626b-940d-4b2d-beea-a39ac98d2c48", 
+                          "Value": [ 
+                            { 
+                              "Value": "A-0000", 
+                              "ValueDetail": "paymentTransactionId" 
+                            } 
+                          ], 
+                          "UseID": "59d64045-a81a-40de-82d0-315e3f93c7db" 
+                        }, 
+                        { 
+                          "UseArea": "Ccs_User_Defined_Characteristic", 
+                          "CharacteristicID": "60f839be-3ca1-4eca-9f2d-e527b241580b", 
+                          "Value": [ 
+                            { 
+                              "Value": "x", 
+                              "ValueDetail": "resourceId" 
+                            } 
+                          ], 
+                          "UseID": "2c02bf03-2445-4d0c-9a3d-aed5ee9e544c" 
+                        }, 
+                        { 
+                          "UseArea": "Ccs_User_Defined_Characteristic", 
+                          "CharacteristicID": "8f74ceb2-a8bb-46d8-9c1f-37e48bf779f9", 
+                          "Value": [ 
+                            { 
+                              "Value": "200", 
+                              "ValueDetail": "unitGrantAmount" 
+                            } 
+                          ], 
+                          "UseID": "daba558c-f332-4459-a9d5-7b9cba3caf31" 
+                        } 
+                      ], 
+                      "LinkedEntity": [], 
+                      "_IsNewForCustomer": true 
+                    }, 
+                    { 
+                      "ID": "FY_11y1t77zqoqi", 
+                      "EntityID": "e8922245-37cc-410d-956f-51778bdc8e76", 
+                      "ChildEntity": [ 
+                        { 
+                          "ID": "FY_11rn52n44tiu", 
+                          "EntityID": "1440d9ea-74a7-44c2-a6ac-383cfa2712b7", 
+                          "ChildEntity": [], 
+                          "CharacteristicUse": [ 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "6f6936af-7fb8-4de4-aaac-9052b572d358", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "a5943960-41bc-4c63-cd92-20185fb25b7a", 
+                                  "ValueDetail": "200 Units" 
+                                } 
+                              ], 
+                              "UseID": "09ae8432-073b-48a1-bc77-63c5483356d6" 
+                            } 
+                          ], 
+                          "RateAttribute": [], 
+                          "ConfiguredValue": [], 
+                          "LinkedEntity": [], 
+                          "_IsNewForCustomer": true 
+                        }, 
+                        { 
+                          "ID": "FY_11cewsghjypp", 
+                          "EntityID": "5fc8d28a-8855-4484-9d5c-d02db7234496", 
+                          "ChildEntity": [ 
+                            { 
+                              "ID": "FY_11vz84d60kix", 
+                              "EntityID": "ae199d1b-156f-4937-bbaa-4e06c90c8fcb", 
+                              "ChildEntity": [], 
+                              "CharacteristicUse": [], 
+                              "RateAttribute": [], 
+                              "ConfiguredValue": [], 
+                              "LinkedEntity": [], 
+                              "Rate": { 
+                                "Rate": 4.99, 
+                                "RateRowID": "f07e91a3-8af5-4524-9d0e-3a5f2ed22430", 
+                                "Type": "Value_Pricing_Rate_RR", 
+                                "StartDate": "2021-07-28", 
+                                "Value": 4.99 
+                              }, 
+                              "ChargeType": "RecurringCharge", 
+                              "ExactType": "Value_Pricing_RC_Template", 
+                              "Periodicity": "30 Days", 
+                              "_IsNewForCustomer": true, 
+                              "HasBeenPaid": true 
+                            } 
+                          ], 
+                          "CharacteristicUse": [], 
+                          "RateAttribute": [], 
+                          "ConfiguredValue": [], 
+                          "LinkedEntity": [], 
+                          "_IsNewForCustomer": true 
+                        } 
+                      ], 
+                      "CharacteristicUse": [ 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "77e4f724-3092-4fa1-97f4-223a48320e66", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "7c05563c-dd20-4a6b-808a-243e5bb482a0", 
+                              "ValueDetail": "NA" 
+                            } 
+                          ], 
+                          "UseID": "3e8a6ad0-ca9e-440e-b45c-f129f20b8cc4" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "e6b90285-60c4-473e-b1b6-abba4bbb4973", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "40f9d132-c02f-427d-b643-46e46457d3f5", 
+                              "ValueDetail": "NA" 
+                            } 
+                          ], 
+                          "UseID": "90790bc0-3ca2-4ee2-a1f3-ac5edca383a6" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "cdf363af-02a6-414b-8322-f96d8f4cc6f1", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "93242aad-0599-4a2c-b620-2ed8b94c8d4b", 
+                              "ValueDetail": "Unlimited" 
+                            } 
+                          ], 
+                          "UseID": "e16b8f3f-76ec-4758-afa8-5a6a15371ac4" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "dd503bdd-a3db-4083-9e81-ebe48fd99cb2", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "0010a355-15a7-436e-8980-6b72d2deff9d", 
+                              "ValueDetail": "Monthly" 
+                            } 
+                          ], 
+                          "UseID": "a4aeaff0-06cb-4bcc-a11d-53cefef82891" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "ab63caa4-e188-4be5-ac7e-571932b4f97f", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "2aa7f02c-3a23-49a2-9bec-a5c1ed875d30", 
+                              "ValueDetail": "Renewing" 
+                            } 
+                          ], 
+                          "UseID": "159687cd-2b06-4ddf-9f72-a2b2b784ccc8" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "4f94cb45-dafc-47c2-b048-021ed5d1bb46", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "0789f1a2-8350-42e1-85b5-9ce0d6925758", 
+                              "ValueDetail": "True" 
+                            } 
+                          ], 
+                          "UseID": "df1677c9-912c-4fc3-954d-c4505418a1b7" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "c9fef89b-9a4a-4da1-b69d-79ca15f6eb15", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "7839351c-d3d5-49f2-a1c9-7229ca3a05dd", 
+                              "ValueDetail": "14 Days" 
+                            } 
+                          ], 
+                          "UseID": "a27c12b1-467e-4d15-8b93-8cd2a0b5541c" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "62d5483f-d3e2-41a7-a2ac-0acd76405aee", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "1ae30f69-f271-4944-b6f5-7fbece190060", 
+                              "ValueDetail": "True" 
+                            } 
+                          ], 
+                          "UseID": "7c4faf60-21ad-4354-901b-13c4cbdf259e" 
+                        }, 
+                        { 
+                          "UseArea": "Spec_Char", 
+                          "CharacteristicID": "124e85a0-e18c-4f26-bb5b-58dd667fbdfc", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "926c0155-cbd6-4bd8-9f82-6e9f210be840", 
+                              "ValueDetail": "90 Days" 
+                            } 
+                          ], 
+                          "UseID": "019743f9-3195-48e7-abe0-b1dc218b7b99" 
+                        } 
+                      ], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [], 
+                      "LinkedEntity": [], 
+                      "_IsNewForCustomer": true 
+                    } 
+                  ], 
+                  "CharacteristicUse": [ 
+                    { 
+                      "UseArea": "Config_Payment_Method", 
+                      "CharacteristicID": "ea0d1500-b2df-4c89-ba4f-8c719168c6c8", 
+                      "Value": [ 
+                        { 
+                          "ValueID": "4703e955-fb4e-413e-b4ad-499587ae958b", 
+                          "ValueDetail": "Direct Debit" 
+                        } 
+                      ], 
+                      "UseID": "ea0d1500-b2df-4c89-ba4f-8c719168c6c8" 
+                    } 
+                  ], 
+                  "RateAttribute": [], 
+                  "ConfiguredValue": [], 
+                  "LinkedEntity": [], 
+                  "_IsNewForCustomer": true 
+                }, 
+                { 
+                  "ID": "CS_8ab381a0-7b14-42ea-a090-f04eaf4d159d", 
+                  "EntityID": "847590ba-4b9c-4529-8060-0f6b0518e646", 
+                  "ChildEntity": [ 
+                    { 
+                      "ID": "CS_8594b13c-048a-4aba-bdf8-7651ac62a47a", 
+                      "EntityID": "578bf90c-18ad-454c-b072-8dc7a420df62", 
+                      "ChildEntity": [ 
+                        { 
+                          "ID": "CS_b5344b55-d134-441f-b0b4-0e113077c672", 
+                          "EntityID": "d3036e4d-1737-4d82-86b5-e8da590c7164", 
+                          "ChildEntity": [], 
+                          "CharacteristicUse": [], 
+                          "RateAttribute": [], 
+                          "ConfiguredValue": [], 
+                          "LinkedEntity": [], 
+                          "_IsNewForCustomer": true 
+                        } 
+                      ], 
+                      "CharacteristicUse": [], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [], 
+                      "LinkedEntity": [], 
+                      "_IsNewForCustomer": true 
+                    } 
+                  ], 
+                  "CharacteristicUse": [ 
+                    { 
+                      "UseArea": "Contract_Term", 
+                      "CharacteristicID": "b03e075f-4ab3-41f5-881b-c2a20d30fc80", 
+                      "Value": [ 
+                        { 
+                          "ValueID": "5b196fbc-319b-44c7-8d7e-20248710a399" 
+                        } 
+                      ], 
+                      "UseID": "b03e075f-4ab3-41f5-881b-c2a20d30fc80" 
+                    }, 
+                    { 
+                      "UseArea": "Spec_Char", 
+                      "CharacteristicID": "dc0e36e9-5b6d-45f8-8cf4-46d9474e1ea5", 
+                      "Value": [ 
+                        { 
+                          "ValueID": "5bd78698-e235-48c7-ba4f-bb5e4f8cd95b" 
+                        } 
+                      ], 
+                      "UseID": "dbdb26ba-f108-4d9c-ae9b-ff7bead6212d" 
+                    } 
+                  ], 
+                  "RateAttribute": [], 
+                  "ConfiguredValue": [], 
+                  "LinkedEntity": [], 
+                  "_IsNewForCustomer": true 
+                }, 
+                { 
+                  "ID": "CS_f7cb463d-cfed-4633-a8b1-17e46af20b34", 
+                  "EntityID": "12f3031b-cc65-4264-8f82-6c5af02dcb33", 
+                  "ChildEntity": [], 
+                  "CharacteristicUse": [], 
+                  "RateAttribute": [], 
+                  "ConfiguredValue": [], 
+                  "LinkedEntity": [], 
+                  "_IsNewForCustomer": true 
+                }, 
+                { 
+                  "ID": "FY_11hzhevq4hrp", 
+                  "EntityID": "bc1bd553-d501-4be8-b4d9-22f838fa460e", 
+                  "ChildEntity": [ 
+                    { 
+                      "ID": "FY_11ookku3vf64", 
+                      "EntityID": "9afd5a9a-f8e3-4d3f-88d6-41e904882493", 
+                      "ChildEntity": [ 
+                        { 
+                          "ID": "FY_11ulsow19rh6", 
+                          "EntityID": "f2e1a45f-cf61-4597-8639-93494dbda49f", 
+                          "ChildEntity": [ 
+                            { 
+                              "ID": "CS_af30a4eb-7ece-46d9-96c2-c06ee717546e", 
+                              "EntityID": "bfe0e17d-4d79-4087-9bdb-f4ede69417af", 
+                              "ChildEntity": [], 
+                              "CharacteristicUse": [ 
+                                { 
+                                  "UseArea": "Spec_Char", 
+                                  "CharacteristicID": "d20237ee-d72b-45cd-838e-906c8bdd0dc9", 
+                                  "Value": [ 
+                                    { 
+                                      "ValueID": "8281680c-141e-4eac-b5d8-535e08790135" 
+                                    } 
+                                  ], 
+                                  "UseID": "d9f8798c-0b38-46b9-8b75-02fa288818b0" 
+                                }, 
+                                { 
+                                  "UseArea": "Config_Payment_Method", 
+                                  "CharacteristicID": "47e7220a-da60-4b11-b067-61bb435f082b", 
+                                  "Value": [ 
+                                    { 
+                                      "ValueID": "4703e955-fb4e-413e-b4ad-499587ae958b" 
+                                    } 
+                                  ], 
+                                  "UseID": "47e7220a-da60-4b11-b067-61bb435f082b" 
+                                } 
+                              ], 
+                              "RateAttribute": [], 
+                              "ConfiguredValue": [], 
+                              "LinkedEntity": [], 
+                              "_IsNewForCustomer": true 
+                            } 
+                          ], 
+                          "CharacteristicUse": [ 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "97dc5cd8-670e-4bb1-b14f-33f61bcca631", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "c08a4a56-d407-496d-823f-840eb649549d", 
+                                  "ValueDetail": "Data" 
+                                } 
+                              ], 
+                              "UseID": "c0882d10-5071-48ab-bed9-d91316124f86" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "0ce045e4-f487-405d-81bd-e29a7b10975a", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "525d67cb-6fe4-4db8-a0ac-d197ab4e10fd", 
+                                  "ValueDetail": "No" 
+                                } 
+                              ], 
+                              "UseID": "0e36eaf2-7dde-4ad4-83e4-78c15849a6d8" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "aedcb669-96f5-4691-93f8-88ddc8254a0c", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "38e4a529-a1d1-4ac3-9008-d8a046461d75", 
+                                  "ValueDetail": "Voice" 
+                                } 
+                              ], 
+                              "UseID": "2db398df-13c2-4456-9e95-f39f45f66af5" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "b6bcf4b3-25f7-4394-8ce7-79a8aab7c891", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "db42d20f-f933-4cfb-8f9f-8735b4d25fd5", 
+                                  "ValueDetail": "SP902" 
+                                } 
+                              ], 
+                              "UseID": "ae5aa7b6-b387-4dea-a0ce-4fe49b28edfb" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "6946e3be-7c8a-4e6d-a4bc-0663b838807c", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "b4e912f4-dc06-df2a-ef36-766634cb2d96", 
+                                  "ValueDetail": "1" 
+                                } 
+                              ], 
+                              "UseID": "3115d4a4-a3c2-4e7d-896e-9b79cd06affd" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "14528e4d-8ede-3c7a-9954-c4a4e14a508a", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "f82b52c3-8302-37d4-befc-efc0453595a8", 
+                                  "ValueDetail": "1" 
+                                } 
+                              ], 
+                              "UseID": "b3c76a86-d72b-49a1-8801-f629e77146a1" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "1db4e86a-2fa1-05e0-434e-9c686947b822", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "df0342c4-6998-e41b-3147-22f7536cf8b3", 
+                                  "ValueDetail": "1" 
+                                } 
+                              ], 
+                              "UseID": "aadc88a0-c4de-417a-937f-a93d4f5387f7" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "a444e315-948c-15a9-4085-c5d9585f822c", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "062d21da-e766-d9e8-e9c7-b192ff18e8dc", 
+                                  "ValueDetail": "1" 
+                                } 
+                              ], 
+                              "UseID": "4ddb8b98-a582-47a8-a852-40d2a839e9cd" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "60114ca6-910a-4c18-9c62-87d63bc839a3", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "f4d47ff5-1fec-421f-879f-a459b7951217", 
+                                  "ValueDetail": "4G" 
+                                } 
+                              ], 
+                              "UseID": "0cd36a01-f732-459d-b4ee-c16094353ad6" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "edacc78e-2c2d-415e-9db8-61e23bcb2664", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "2dc19409-6558-427e-b563-951c12ced887", 
+                                  "ValueDetail": "eSIM" 
+                                } 
+                              ], 
+                              "UseID": "b189868e-a99a-4c07-8a08-a45fee14e6cb" 
+                            }, 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "82dd4fe0-8b51-49ad-94d5-6348c789154a", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "4de20a63-3ba8-480d-8b68-977934d34ce6", 
+                                  "ValueDetail": "Prepaid" 
+                                } 
+                              ], 
+                              "UseID": "f6af1339-5424-4645-92a2-6ba96a03f51c" 
+                            } 
+                          ], 
+                          "RateAttribute": [], 
+                          "ConfiguredValue": [ 
+                            { 
+                              "UseArea": "User_Defined_Char", 
+                              "CharacteristicID": "ebe678b0-4a5d-4247-bea1-caa1017a725c", 
+                              "Value": [ 
+                                { 
+                                  "Value": "2", 
+                                  "ValueDetail": "Brand ID" 
+                                } 
+                              ], 
+                              "UseID": "2521822e-ac98-4669-9d14-a750d796eaea" 
+                            }, 
+                            { 
+                              "UseArea": "User_Defined_Char", 
+                              "CharacteristicID": "657ed1c5-c3f2-43fd-98b5-5dad90642a8a", 
+                              "Value": [ 
+                                { 
+                                  "Value": "7689", 
+                                  "ValueDetail": "ICCID" 
+                                } 
+                              ], 
+                              "UseID": "05aacef0-ef0b-46cc-9741-da3b14df72f0" 
+                            } 
+                          ], 
+                          "LinkedEntity": [], 
+                          "_IsNewForCustomer": true 
+                        }, 
+                        { 
+                          "ID": "FY_11h34l3vzgpj", 
+                          "EntityID": "611b2733-cf80-47fd-a254-96f31f2dd72b", 
+                          "ChildEntity": [], 
+                          "CharacteristicUse": [ 
+                            { 
+                              "UseArea": "Spec_Char", 
+                              "CharacteristicID": "d20237ee-d72b-45cd-838e-906c8bdd0dc9", 
+                              "Value": [ 
+                                { 
+                                  "ValueID": "8281680c-141e-4eac-b5d8-535e08790135" 
+                                } 
+                              ], 
+                              "UseID": "43dbc239-7a17-45fd-9e66-abf9565879cd" 
+                            } 
+                          ], 
+                          "RateAttribute": [], 
+                          "ConfiguredValue": [], 
+                          "LinkedEntity": [], 
+                          "_IsNewForCustomer": true 
+                        } 
+                      ], 
+                      "CharacteristicUse": [ 
+                        { 
+                          "UseArea": "Flow_Type", 
+                          "CharacteristicID": "61ab321c-71ac-4241-af1e-bc64bf578ac6", 
+                          "Value": [ 
+                            { 
+                              "ValueID": "d375acc6-b4ce-41c9-9d06-5b3d8cb55b0a", 
+                              "ValueDetail": "NA" 
+                            } 
+                          ], 
+                          "UseID": "61ab321c-71ac-4241-af1e-bc64bf578ac6" 
+                        } 
+                      ], 
+                      "RateAttribute": [], 
+                      "ConfiguredValue": [], 
+                      "LinkedEntity": [], 
+                      "_IsNewForCustomer": true 
+                    } 
+                  ], 
+                  "CharacteristicUse": [], 
+                  "RateAttribute": [], 
+                  "ConfiguredValue": [], 
+                  "LinkedEntity": [], 
+                  "_IsNewForCustomer": true 
+                } 
+              ], 
+              "CharacteristicUse": [ 
+                { 
+                  "UseArea": "Config_Payment_Type", 
+                  "CharacteristicID": "3f126907-ff0a-4454-a679-7ca555682b8d", 
+                  "Value": [ 
+                    { 
+                      "ValueID": "615eefdc-55ed-4c3e-b7df-3145a1452f2c", 
+                      "ValueDetail": "Prepaid" 
+                    } 
+                  ], 
+                  "UseID": "3f126907-ff0a-4454-a679-7ca555682b8d" 
+                }, 
+                { 
+                  "UseArea": "Flow_Type", 
+                  "CharacteristicID": "a187de1b-1633-47d4-bd3a-4dbcf6f1fae3", 
+                  "Value": [ 
+                    { 
+                      "ValueID": "d375acc6-b4ce-41c9-9d06-5b3d8cb55b0a", 
+                      "ValueDetail": "NA" 
+                    } 
+                  ], 
+                  "UseID": "a187de1b-1633-47d4-bd3a-4dbcf6f1fae3" 
+                }, 
+                { 
+                  "UseArea": "Spec_Char", 
+                  "CharacteristicID": "b6bcf4b3-25f7-4394-8ce7-79a8aab7c891", 
+                  "Value": [ 
+                    { 
+                      "ValueID": "db42d20f-f933-4cfb-8f9f-8735b4d25fd5", 
+                      "ValueDetail": "SP902" 
+                    } 
+                  ], 
+                  "UseID": "a9747626-4977-43da-89fe-c8767d1a9b20" 
+                }, 
+                { 
+                  "UseArea": "Spec_Char", 
+                  "CharacteristicID": "c6dcb76b-3b86-4650-91b9-f7915c03bc84", 
+                  "Value": [ 
+                    { 
+                      "ValueID": "6ac1ed60-0d53-4672-be5e-e29516710e51" 
+                    } 
+                  ], 
+                  "UseID": "eb96bf12-1c32-4be1-ac79-23cf2163a628" 
+                } 
+              ], 
+              "RateAttribute": [], 
+              "ConfiguredValue": [ 
+                { 
+                  "UseArea": "User_Defined_Char", 
+                  "CharacteristicID": "ebe678b0-4a5d-4247-bea1-caa1017a725c", 
+                  "Value": [ 
+                    { 
+                      "Value": "2", 
+                      "ValueDetail": "Brand ID" 
+                    } 
+                  ], 
+                  "UseID": "a0721c10-6f71-4951-850f-9149df2f3505" 
+                } 
+              ], 
+              "LinkedEntity": [], 
+              "_IsNewForCustomer": true 
+            } 
+          ], 
+          "CharacteristicUse": [ 
+            { 
+              "UseArea": "Spec_Char", 
+              "CharacteristicID": "120ebbc8-a47e-4a36-8895-0243edf7a55a", 
+              "Value": [ 
+                { 
+                  "ValueID": "e98f06b5-2252-6f8c-c357-63d028bcce96", 
+                  "ValueDetail": "NA" 
+                } 
+              ], 
+              "UseID": "833820e0-6c3d-4b66-bdc3-3a60b179edfc" 
+            }, 
+            { 
+              "UseArea": "Spec_Char", 
+              "CharacteristicID": "05caad3c-a28a-48fc-b334-ccb3a00b08c6", 
+              "Value": [ 
+                { 
+                  "ValueID": "104591b1-78d3-0db1-755d-854a1fbb8b3d", 
+                  "ValueDetail": "Base_Pack" 
+                } 
+              ], 
+              "UseID": "a3400692-38d2-4b0a-a54e-1d9a25df35d7" 
+            } 
+          ], 
+          "RateAttribute": [], 
+          "ConfiguredValue": [ 
+            { 
+              "UseArea": "User_Defined_Char", 
+              "CharacteristicID": "e1b48855-ba6c-40ff-8a5f-956e0980dc35", 
+              "Value": [ 
+                { 
+                  "Value": "NA", 
+                  "ValueDetail": "Alt_Key" 
+                } 
+              ], 
+              "UseID": "41885657-6edd-487e-acc5-28793d206506" 
+            } 
+          ], 
+          "LinkedEntity": [], 
+          "_IsNewForCustomer": true 
+        } 
+      } 
+    ], 
+    "status": "In Progress", 
+    "updated": "2022-02-23T14:16:26.718Z", 
+    "created": "2022-02-23T14:16:25.358Z" 
+  } 

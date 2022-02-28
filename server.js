@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const pathLib = require('path');
+const HansenManager = require('./hansen/hansenManager');
 
 const app = express();
 const port = process.env.PORT || 5001;
@@ -21,6 +22,13 @@ app.get("/pages/*", (req, res) => {
 
 app.get("/*", (req, res) => {
   sendDataBack(req.path, req, res);
+});
+
+app.post("/hansen*", (req, res) => {
+  let hm = new HansenManager();
+  const rawData = hm.getJSON(req.path);
+  res.setHeader("content-type", "application/json");
+  res.send(rawData);
 });
 
 app.post("/*", (req, res) => {
