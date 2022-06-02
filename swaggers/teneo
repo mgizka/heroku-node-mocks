@@ -1,0 +1,111 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API Title",
+    "version": "1.0"
+  },
+  "paths": {
+    "/pi/subscription/{customerId}": {
+      "get": {
+        "operationId": "getCustomerSubscriptions",
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "returns subscriptions for a particular customerId",
+        "responses": {
+          "200": {
+            "description": "service parameters",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/PortfolioItem"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pi/tariff/{msisdn}": {
+      "get": {
+        "operationId": "getServiceTariffPlan",
+        "parameters": [
+          {
+            "name": "msisdn",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "returns portfolio items of a particular type based on a customerId",
+        "responses": {
+          "200": {
+            "description": "service parameters",
+            "schema": {
+              "$ref": "#/definitions/PortfolioItem"
+            }
+          }
+        }
+      }
+    },
+    "/network/checkServiceActive/{serviceId}": {
+      "get": {
+        "operationId": "checkServiceActive",
+        "parameters": [
+          {
+            "name": "serviceId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "returns portfolio items of a particular type based on a customerId",
+        "responses": {
+          "200": {
+            "description": "service parameters",
+            "schema": {
+              "$ref": "#/definitions/CheckServiceActiveResult"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "PortfolioItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "installationDate": {
+          "type": "string"
+        },
+        "productId": {
+          "type": "string"
+        },
+        "productName": {
+          "type": "string"
+        }
+      }
+    },
+    "CheckServiceActiveResult": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
