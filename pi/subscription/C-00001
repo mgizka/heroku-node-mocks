@@ -1,0 +1,38 @@
+[
+  {
+    id: "446060982311",
+    type: "MSISDN",
+    status: "Active",
+    installationDate: "2015-01-01",
+    productId: "lf_1112uu11",
+    productName: "MSISDN",
+    contractId: "CNT-0003",
+  },
+  {
+    id: "486060982322",
+    type: "MSISDN",
+    status: "Active",
+    installationDate: "2017-01-01",
+    productId: "lf_1112uu22",
+    productName: "MSISDN",
+    contractId: "CNT-0022",
+  },
+  {
+    id: "446060982333",
+    type: "MSISDN",
+    status: "Active",
+    installationDate: "2015-01-01",
+    productId: "lf_1112uu33",
+    productName: "MSISDN",
+    contractId: "CNT-0003",
+  },
+  {
+    id: "446060982377",
+    type: "MSISDN",
+    status: "Inactive",
+    installationDate: "2010-01-01",
+    productId: "lf_1112uu77",
+    productName: "MSISDN",
+    contractId: "CNT-0001",
+  },
+];
